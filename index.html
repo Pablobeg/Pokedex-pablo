@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./estilo.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="contenedor1">
+        <p id="mensaje" class="textocentro"></p>
+        <div>
+            <img src="./logo2.png" alt="Logo pokemon" width="150px">
+        </div>
+        <div>
+            <h1 class="centrad1">Pokedex LaunchX</h1>
+        </div>
+    </section>
+
+    <section class="contenedor4">
+        <div class="contenedor3">
+            <input class="inputB" type="text" placeholder="Escribe tu pokemon" id="pokeName" name="pokeName">
+            <button class="boton" onclick="datosPokemon()">Buscar pokemon</button>
+            <p id="tipo"></p>
+            <p id="peso"></p>
+            <p id="estatura"></p>
+            <p id="estadisticas"></p>
+            
+        </div>
+        
+        <div class="contenedor2">
+            <div class="cImagen" >
+                <img src="./pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+            <p id="bit1"></p>
+            </div> 
+            <div class="cImagen">
+                <img src="./pokeball.png" alt="Pokemon" id="pokeImgB" width="150px">
+                <p id="bit2"></p>
+            </div>
+            <div class="cImagen">
+                <img src="./pokeball.png" alt="Pokemon" id="pokeImgW" width="140px">
+                <p id="Dream"></p>
+            </div>
+            <div class="cImagen">
+                <img src="./pokeball.png" alt="Pokemon" id="pokeImgO" width="150px">
+                <p id="3d"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor5">
+        <div >
+            <p id="movimientos"> </p>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+</body>
+
+    <script src="./funciones.js"></script>
+
+</html>
